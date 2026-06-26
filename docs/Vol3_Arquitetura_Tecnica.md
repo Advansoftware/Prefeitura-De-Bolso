@@ -69,33 +69,33 @@ O backend da prefeitura **já existe e já possui dezenas de módulos**. O app F
 
 ```mermaid
 graph TB
-    subgraph "📱 Mobile App"
-        FLUTTER["Flutter App<br>(Android + iOS)"]
+    subgraph "Mobile App"
+        FLUTTER["Flutter App (Android + iOS)"]
     end
 
-    subgraph "🌐 Backend Existente"
-        NESTJS["NestJS 10<br>API REST"]
-        AUTH["Auth Module<br>JWT (Admin only)"]
+    subgraph "Backend Existente"
+        NESTJS["NestJS 10 API REST"]
+        AUTH["Auth Module JWT (Admin only)"]
     end
 
-    subgraph "💾 Dados"
-        MYSQL["MySQL<br>TypeORM"]
-        MEILI["MeiliSearch<br>Busca Full-text"]
-        MINIO["MinIO<br>Arquivos/Fotos"]
-        REDIS["Redis<br>Cache (NOVO)"]
+    subgraph "Dados"
+        MYSQL["MySQL TypeORM"]
+        MEILI["MeiliSearch Busca Full-text"]
+        MINIO["MinIO Arquivos/Fotos"]
+        REDIS["Redis Cache (NOVO)"]
     end
 
-    subgraph "☁️ Serviços Cloud"
-        FCM["Firebase Cloud<br>Messaging"]
-        ANALYTICS["Firebase<br>Analytics"]
+    subgraph "Servicos Cloud"
+        FCM["Firebase Cloud Messaging"]
+        ANALYTICS["Firebase Analytics"]
     end
 
-    subgraph "📞 Externo"
-        WHATSAPP["WhatsApp<br>wa.me Deep Link"]
-        MAPS["Google Maps<br>SDK"]
+    subgraph "Externo"
+        WHATSAPP["WhatsApp wa.me Deep Link"]
+        MAPS["Google Maps SDK"]
     end
 
-    FLUTTER -->|"REST API<br>(JSON)"| NESTJS
+    FLUTTER -->|"REST API (JSON)"| NESTJS
     FLUTTER -->|"Push Token"| FCM
     FLUTTER -->|"Deep Link"| WHATSAPP
     FLUTTER -->|"SDK"| MAPS
@@ -715,12 +715,12 @@ Docker Compose (existente + novos serviços):
 ```mermaid
 graph LR
     subgraph "Flutter App"
-        UI["UI Layer<br>Pages + Widgets"]
-        BLoC["State Management<br>Cubit/BLoC"]
+        UI["UI Layer Pages + Widgets"]
+        BLoC["State Management Cubit/BLoC"]
         UC["Use Cases"]
         REPO["Repositories"]
         DS["Data Sources"]
-        LOCAL["Local Storage<br>SharedPrefs + SQLite"]
+        LOCAL["Local Storage SharedPrefs + SQLite"]
     end
 
     subgraph "Backend"
@@ -747,9 +747,9 @@ graph LR
 
 ```mermaid
 graph TB
-    subgraph "Cidadão"
-        ANDROID["📱 Android 8+"]
-        IOS["📱 iOS 14+"]
+    subgraph "Cidadao"
+        ANDROID["Android 8+"]
+        IOS["iOS 14+"]
     end
 
     subgraph "Lojas"
@@ -758,18 +758,18 @@ graph TB
     end
 
     subgraph "Cloud (Coolify/VPS)"
-        NGINX["Nginx<br>Reverse Proxy<br>SSL Termination"]
-        API["NestJS API<br>:3000"]
-        MYSQL_S["MySQL<br>:3306"]
-        MEILI_S["MeiliSearch<br>:7700"]
-        MINIO_S["MinIO<br>:9000"]
-        REDIS_S["Redis<br>:6379"]
+        NGINX["Nginx Reverse Proxy SSL Termination"]
+        API["NestJS API :3000"]
+        MYSQL_S["MySQL :3306"]
+        MEILI_S["MeiliSearch :7700"]
+        MINIO_S["MinIO :9000"]
+        REDIS_S["Redis :6379"]
     end
 
     subgraph "Firebase"
         FCM_S["Cloud Messaging"]
         ANALYTICS_S["Analytics"]
-        DIST["App Distribution<br>(Beta)"]
+        DIST["App Distribution (Beta)"]
     end
 
     ANDROID --> PLAY

@@ -22,12 +22,12 @@
 graph LR
     subgraph "Cidadão (sem login)"
         A1["Ver avisos e notícias"]
-        A2["Abrir protocolo<br>(foto + GPS)"]
-        A3["Acompanhar protocolo<br>(código + chave)"]
+        A2["Abrir protocolo (foto + GPS)"]
+        A3["Acompanhar protocolo (código + chave)"]
         A4["Consultar IPTU"]
-        A5["Ver saúde<br>(UBS, vacinas)"]
-        A6["Ver educação<br>(calendário, merenda)"]
-        A7["Ver turismo<br>(pontos, rotas)"]
+        A5["Ver saúde (UBS, vacinas)"]
+        A6["Ver educação (calendário, merenda)"]
+        A7["Ver turismo (pontos, rotas)"]
         A8["Ver eventos"]
         A9["Ver coleta de lixo"]
         A10["Ligar emergência"]
