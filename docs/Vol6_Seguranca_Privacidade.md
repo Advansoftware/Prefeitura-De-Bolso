@@ -1,4 +1,4 @@
-<![CDATA[# 🔒 Volume 6 — Segurança, Privacidade e LGPD
+# 🔒 Volume 6 — Segurança, Privacidade e LGPD
 
 ## Projeto "Prefeitura no Bolso"
 
@@ -129,4 +129,3 @@ A visualização de dados do SUS, agendamento de consultas ou prontuários médi
 
 ### 6.4 Direito de Exclusão
 Como não há conta atrelada a uma pessoa, a exclusão dos dados (FCM Token, histórico local) se dá pela **desinstalação do aplicativo** ou limpeza de dados nas configurações, efetivando o "direito de ser esquecido".
-]]>

@@ -1,4 +1,4 @@
-<![CDATA[# 📘 Volume 1 — Visão do Produto e Requisitos
+# 📘 Volume 1 — Visão do Produto e Requisitos
 
 ## Projeto "Prefeitura no Bolso"
 ### Plataforma de Relacionamento com o Cidadão
@@ -1148,4 +1148,3 @@ Como o app **não coleta dados pessoais** (sem CPF, nome, e-mail, conta), o risc
 ---
 
 > **Nota:** Este Volume 1 é a fundação conceitual do projeto. Ele garante alinhamento entre as partes interessadas antes de qualquer investimento em design ou código. Os volumes subsequentes detalham UX/UI (Vol. 2), Arquitetura (Vol. 3), Diagramas UML (Vol. 4), Backlog (Vol. 5), Guia do Desenvolvedor (Vol. 6), APIs (Vol. 7) e Documento Comercial (Vol. 8).
-]]>

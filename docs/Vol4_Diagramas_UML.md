@@ -1,4 +1,4 @@
-<![CDATA[# 📐 Volume 4 — Diagramas UML e Fluxos
+# 📐 Volume 4 — Diagramas UML e Fluxos
 
 ## Projeto "Prefeitura no Bolso"
 
@@ -493,4 +493,3 @@ flowchart TD
 ---
 
 > **Nota:** Todos os diagramas usam Mermaid para renderização. Em implementação, os diagramas de sequência servem como guia para criação dos testes de integração.
-]]>

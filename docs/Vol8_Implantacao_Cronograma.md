@@ -1,4 +1,4 @@
-<![CDATA[# 📅 Volume 8 — Cronograma e Implantação
+# 📅 Volume 8 — Cronograma e Implantação
 
 ## Projeto "Prefeitura no Bolso"
 
@@ -123,4 +123,3 @@ O lançamento do "Prefeitura no Bolso" terá seu sucesso medido nos 3 primeiros 
 4. **Qualidade Técnica:**
    - Crash-Free Sessions acima de 99,5%.
    - Avaliação média nas Lojas de Aplicativos (App Store / Play Store) superior a 4,5/5 estrelas.
-]]>

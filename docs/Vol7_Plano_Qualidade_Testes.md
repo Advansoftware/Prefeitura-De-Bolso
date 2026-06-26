@@ -1,4 +1,4 @@
-<![CDATA[# 🧪 Volume 7 — Plano de Testes e Qualidade
+# 🧪 Volume 7 — Plano de Testes e Qualidade
 
 ## Projeto "Prefeitura no Bolso"
 
@@ -118,4 +118,3 @@ A qualidade se mantém após o deploy com ferramentas de telemetria:
 - **Firebase Analytics:**
   - Quais módulos são mais clicados (Eventos personalizados: `select_module`, parameter: `module_name`).
   - Funil de protocolos (`open_camera`, `take_photo`, `submit_success`).
-]]>

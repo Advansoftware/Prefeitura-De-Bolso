@@ -1,4 +1,4 @@
-<![CDATA[# 🔌 Volume 5 — Especificação de APIs
+# 🔌 Volume 5 — Especificação de APIs
 
 ## Projeto "Prefeitura no Bolso"
 
@@ -578,4 +578,3 @@ Todas as APIs de listagem seguem o padrão:
 ---
 
 > **Nota:** As APIs existentes (seção 1) já estão documentadas no backend. Este documento foca nas **novas APIs** que precisam ser implementadas para o app. Cada endpoint segue o padrão REST existente do projeto NestJS.
-]]>

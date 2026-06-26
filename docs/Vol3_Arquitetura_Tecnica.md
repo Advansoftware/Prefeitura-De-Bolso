@@ -1,4 +1,4 @@
-<![CDATA[# 🏗️ Volume 3 — Arquitetura Técnica
+# 🏗️ Volume 3 — Arquitetura Técnica
 
 ## Projeto "Prefeitura no Bolso"
 
@@ -791,4 +791,3 @@ graph TB
 ---
 
 > **Nota:** Este volume detalha a arquitetura técnica referenciando diretamente o backend existente em `prefeitura-brazopolis-backend`. Os diagramas UML detalhados (sequência, classes, casos de uso) estão no Volume 4.
-]]>

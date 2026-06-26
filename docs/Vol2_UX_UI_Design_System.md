@@ -1,4 +1,4 @@
-<![CDATA[# 🎨 Volume 2 — UX/UI e Design System
+# 🎨 Volume 2 — UX/UI e Design System
 
 ## Projeto "Prefeitura no Bolso"
 ### Plataforma de Relacionamento com o Cidadão
@@ -676,4 +676,3 @@ Banner fixo no topo quando sem conexão, desaparece ao reconectar.
 ---
 
 > **Nota:** Os mockups pendentes (Defesa Civil, Concursos, WhatsApp) serão gerados quando a quota de imagens resetar. O design segue o mesmo padrão visual dos 15 mockups já gerados.
-]]>
