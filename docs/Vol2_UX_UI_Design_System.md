@@ -1,6 +1,6 @@
 # 🎨 Volume 2 — UX/UI e Design System
 
-## Projeto "Prefeitura no Bolso"
+## Projeto "Prefeitura de Brazópolis"
 ### Plataforma de Relacionamento com o Cidadão
 
 | Item | Detalhe |
@@ -517,7 +517,7 @@ App
 #### Tela 01: Splash Screen
 - **Duração:** 2 segundos + carregamento
 - **Fundo:** Gradiente `primary-dark` → `primary`
-- **Elementos:** Logo prefeitura (centralizado), nome "Prefeitura no Bolso" (abaixo), indicador de loading
+- **Elementos:** Logo prefeitura (centralizado), nome "Prefeitura de Brazópolis" (abaixo), indicador de loading
 - **Animação:** Logo fade-in (300ms), texto slide-up (500ms delay)
 - **Transição:** Fade-out para Onboarding (primeira vez) ou Home (retorno)
 

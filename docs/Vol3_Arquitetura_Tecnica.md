@@ -1,6 +1,6 @@
 # 🏗️ Volume 3 — Arquitetura Técnica
 
-## Projeto "Prefeitura no Bolso"
+## Projeto "Prefeitura de Brazópolis"
 
 | Item | Detalhe |
 |------|---------|

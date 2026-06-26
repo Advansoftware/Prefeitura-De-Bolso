@@ -1,6 +1,6 @@
 # 📘 Volume 1 — Visão do Produto e Requisitos
 
-## Projeto "Prefeitura no Bolso"
+## Projeto "Prefeitura de Brazópolis"
 ### Plataforma de Relacionamento com o Cidadão
 
 | Item | Detalhe |
@@ -35,9 +35,9 @@
 
 ## 1. Visão Geral do Projeto
 
-### 1.1 O que é o "Prefeitura no Bolso"?
+### 1.1 O que é o "Prefeitura de Brazópolis"?
 
-O **"Prefeitura no Bolso"** é uma plataforma digital de relacionamento entre a administração municipal e seus públicos — cidadãos, turistas, empresários, servidores públicos e produtores rurais. Diferentemente do portal institucional — que cumpre bem o papel de consulta estática — o aplicativo foi concebido como um **hub de serviços proativos, comunicação direta e engajamento diário**.
+O **"Prefeitura de Brazópolis"** é uma plataforma digital de relacionamento entre a administração municipal e seus públicos — cidadãos, turistas, empresários, servidores públicos e produtores rurais. Diferentemente do portal institucional — que cumpre bem o papel de consulta estática — o aplicativo foi concebido como um **hub de serviços proativos, comunicação direta e engajamento diário**.
 
 O principal diferencial é que **o app vai até o cidadão**, por meio de notificações push, lembretes e conteúdos personalizados, em vez de esperar que ele acesse o site.
 
@@ -60,7 +60,7 @@ A personalização do app é feita **localmente no dispositivo** (SharedPreferen
 
 ### 1.4 Inspiração de Mercado
 
-O "Prefeitura no Bolso" se inspira na experiência de uso de aplicativos como:
+O "Prefeitura de Brazópolis" se inspira na experiência de uso de aplicativos como:
 
 - **Nubank** — simplicidade, cartões informativos, navegação intuitiva
 - **iFood** — categorias visuais, busca por proximidade, notificações contextuais
@@ -144,7 +144,7 @@ O portal da Prefeitura de Brazópolis oferece um conjunto completo de informaç�
 
 ### 3.3 Análise comparativa: Portal vs. App
 
-| Aspecto | Portal Web | App "Prefeitura no Bolso" |
+| Aspecto | Portal Web | App "Prefeitura de Brazópolis" |
 |---------|-----------|--------------------------|
 | Acesso | Navegador, quando lembrar | Ícone no celular, sempre disponível |
 | Comunicação | Passiva (site→cidadão) | Ativa (push notifications) |
@@ -867,7 +867,7 @@ Embora não existam contas de usuário, o aplicativo atende cinco públicos dist
 ### 9.1 Splash Screen
 - Fundo com gradiente (azul escuro → azul claro)
 - Logotipo da prefeitura centralizado (animação de fade-in)
-- Nome "Prefeitura no Bolso" abaixo, com animação de slide-up
+- Nome "Prefeitura de Brazópolis" abaixo, com animação de slide-up
 - Indicador de carregamento sutil
 
 ### 9.2 Onboarding (3 telas com swipe)

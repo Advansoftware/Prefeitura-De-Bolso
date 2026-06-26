@@ -1,6 +1,6 @@
 # 🔌 Volume 5 — Especificação de APIs
 
-## Projeto "Prefeitura no Bolso"
+## Projeto "Prefeitura de Brazópolis"
 
 | Item | Detalhe |
 |------|---------|
@@ -412,7 +412,7 @@ X-App-Key: {app_key}
     { "nome": "Educação", "numero": "5535364533330", "horario": "Seg-Sex: 8h às 16h" },
     { "nome": "IPTU", "numero": "5535364544440", "horario": "Seg-Sex: 8h às 17h" }
   ],
-  "mensagemPadrao": "Olá! Estou entrando em contato pelo app Prefeitura no Bolso."
+  "mensagemPadrao": "Olá! Estou entrando em contato pelo app Prefeitura de Brazópolis."
 }
 ```
 

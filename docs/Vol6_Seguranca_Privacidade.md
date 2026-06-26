@@ -1,6 +1,6 @@
 # 🔒 Volume 6 — Segurança, Privacidade e LGPD
 
-## Projeto "Prefeitura no Bolso"
+## Projeto "Prefeitura de Brazópolis"
 
 | Item | Detalhe |
 |------|---------|
@@ -23,7 +23,7 @@
 
 ## 1. Abordagem "Sem Cadastro"
 
-O "Prefeitura no Bolso" resolve o maior gargalo de adoção de apps governamentais eliminando completamente a barreira de entrada: **o login**.
+O "Prefeitura de Brazópolis" resolve o maior gargalo de adoção de apps governamentais eliminando completamente a barreira de entrada: **o login**.
 
 ### 1.1 O que NÃO coletamos
 - Nome

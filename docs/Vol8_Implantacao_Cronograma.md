@@ -1,6 +1,6 @@
 # 📅 Volume 8 — Cronograma e Implantação
 
-## Projeto "Prefeitura no Bolso"
+## Projeto "Prefeitura de Brazópolis"
 
 ---
 
@@ -115,7 +115,7 @@ A filosofia do projeto é **não aumentar custos significativamente**, usando a 
 
 ## 6. Métricas de Sucesso (KPIs)
 
-O lançamento do "Prefeitura no Bolso" terá seu sucesso medido nos 3 primeiros meses de operação:
+O lançamento do "Prefeitura de Brazópolis" terá seu sucesso medido nos 3 primeiros meses de operação:
 
 1. **Adoção (Downloads):** Alcançar 5.000 usuários ativos mensais (MAU) na cidade (considerando a população e uso de smartphones).
 2. **Engajamento Push:** Taxa de retenção após receber alertas e CTR (Click-Through Rate) > 15% nas mensagens da Defesa Civil e Saúde.

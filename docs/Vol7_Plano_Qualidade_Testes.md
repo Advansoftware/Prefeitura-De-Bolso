@@ -1,6 +1,6 @@
 # 🧪 Volume 7 — Plano de Testes e Qualidade
 
-## Projeto "Prefeitura no Bolso"
+## Projeto "Prefeitura de Brazópolis"
 
 ---
 
