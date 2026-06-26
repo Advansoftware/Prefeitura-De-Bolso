@@ -1,0 +1,193 @@
+{
+  "nome_quadro": "Prefeitura no Bolso - Desenvolvimento",
+  "descricao": "Quadro de tarefas para o desenvolvimento do app Prefeitura no Bolso (Flutter + NestJS)",
+  "listas": [
+    {
+      "nome": "Backlog (Pendências Gerais)",
+      "cartoes": [
+        {
+          "titulo": "Gerar Mockups Faltantes",
+          "descricao": "Gerar as telas restantes: Abrir Protocolo, Meus Protocolos (Local), IPTU (PIX/QR Code), Turismo (Detalhe), Defesa Civil, Concursos, WhatsApp (Contato).",
+          "etiquetas": ["Design"]
+        },
+        {
+          "titulo": "Contas de Desenvolvedor (Lojas)",
+          "descricao": "Criar conta Corporativa/Governamental na Apple e Google Play. Obter número DUNS da Prefeitura.",
+          "etiquetas": ["Burocracia", "DevOps"]
+        }
+      ]
+    },
+    {
+      "nome": "Sprint 1: Frontend Base (Semanas 1-2)",
+      "cartoes": [
+        {
+          "titulo": "Setup do Projeto Flutter e Clean Architecture",
+          "descricao": "Criar scaffold inicial do Flutter. Instalar BLoC/Cubit, GetIt, GoRouter e Dio. Configurar estrutura de pastas em features, domain, data e presentation.\n\nRegras de qualidade: Habilitar lints rígidos no analysis_options.yaml.",
+          "etiquetas": ["Flutter", "Arquitetura"]
+        },
+        {
+          "titulo": "Implementação do Design System",
+          "descricao": "Configurar paleta de cores (Azul Institucional #004A80), Tipografia (Roboto) e componentes globais (Botões, Cards, AppBars e Bottom Navigation).",
+          "etiquetas": ["UI/UX", "Flutter"]
+        },
+        {
+          "titulo": "UI: Splash Screen e Onboarding",
+          "descricao": "Implementar tela de splash com animação e as telas de onboarding (explicando funcionalidades sem login).",
+          "etiquetas": ["Flutter", "UI/UX"],
+          "anexos": [
+            "mockup_splash_screen_1782496489026.png",
+            "mockup_onboarding_1782496781350.png"
+          ]
+        },
+        {
+          "titulo": "UI: Home e Navegação Base",
+          "descricao": "Criar a Shell com Bottom Navigation. Implementar a tela Home com barra de busca, carrossel e botões em grid estilo portal.\n\nIntegração: Consumir API de Carrossel existente.",
+          "etiquetas": ["Flutter", "UI/UX"],
+          "anexos": [
+            "mockup_home_1782496498771.png",
+            "mockup_home_v2_1782496680827.png"
+          ]
+        },
+        {
+          "titulo": "UI e Integração: Busca, Notícias e Eventos",
+          "descricao": "Conectar e exibir os dados consumindo a API MeiliSearch existente para busca e a API de notícias/eventos.",
+          "etiquetas": ["Flutter", "Integração"],
+          "anexos": [
+            "mockup_eventos_1782496621257.png"
+          ]
+        },
+        {
+          "titulo": "UI e Integração: Módulos Informativos (Saúde, Educação, Turismo)",
+          "descricao": "Consumir as APIs existentes de Saúde, Educação, Turismo e Obras. Renderizar listas informativas e dashboards simples no padrão do design system.",
+          "etiquetas": ["Flutter", "Integração"],
+          "anexos": [
+            "mockup_saude_1782496531387.png",
+            "mockup_educacao_1782496690305.png",
+            "mockup_turismo_1782496587220.png",
+            "mockup_obras_1782496707784.png"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Sprint 2: Core (Backend + Protocolos)",
+      "cartoes": [
+        {
+          "titulo": "Backend: CRUD de Protocolos",
+          "descricao": "NestJS: Criar tabela e entidade de Protocolos (codigo, chave, categoria, lat/lng, status, etc). Criar rotas no modulo /public/protocolos para o app (sem autenticação) e em /admin/protocolos (com auth).",
+          "etiquetas": ["NestJS", "Backend"]
+        },
+        {
+          "titulo": "Backend: MinIO Upload (Fotos)",
+          "descricao": "NestJS: Integrar SDK do MinIO (S3). Criar lógica para receber arquivo multpart da rota de criar protocolo, validar MIME (imagem) e tamanho, salvar e retornar URL.",
+          "etiquetas": ["NestJS", "Backend"]
+        },
+        {
+          "titulo": "UI e Funcionalidade: Abrir Protocolo",
+          "descricao": "Flutter: Tela de Categorias. Implementar fluxo de câmera (image_picker), capturar localização (geolocator) e enviar form multipart para API.",
+          "etiquetas": ["Flutter", "Funcionalidade"],
+          "anexos": [
+            "mockup_protocolos_1782496510959.png"
+          ]
+        },
+        {
+          "titulo": "UI e Funcionalidade: Acompanhar Protocolo e SQLite",
+          "descricao": "Flutter: Configurar SQLite/sqflite local. Salvar número e chave ao criar protocolo. Criar tela de consulta com timeline de status. Consumir API de detalhe.",
+          "etiquetas": ["Flutter", "Funcionalidade", "Banco Local"],
+          "anexos": [
+            "mockup_acompanhar_protocolo_1782496520340.png"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Sprint 3: Módulos Avançados e Push",
+      "cartoes": [
+        {
+          "titulo": "Backend e App: Push Notifications (FCM)",
+          "descricao": "NestJS: Setup do Firebase Admin. Criar tabela de tokens e tópicos. Criar endpoint para app registrar token anonimizado.\nFlutter: Integrar SDK Firebase Messaging, pedir permissão de push e gerenciar tópicos localmente (Configurações).",
+          "etiquetas": ["NestJS", "Flutter", "Firebase"],
+          "anexos": [
+            "mockup_notificacoes_1782496717551.png",
+            "mockup_configuracoes_1782496790649.png"
+          ]
+        },
+        {
+          "titulo": "UI e Funcionalidade: IPTU (Wrapper)",
+          "descricao": "Flutter: Criar tela de consulta por Inscrição Imobiliária. Consumir API que agrupa os débitos. Integrar visualização de boletos (PDF) e tela de PIX (QR Code).",
+          "etiquetas": ["Flutter", "Integração"],
+          "anexos": [
+            "mockup_iptu_1782496568120.png"
+          ]
+        },
+        {
+          "titulo": "UI e Dados: Mapa Inteligente e Coleta de Lixo",
+          "descricao": "Flutter: Integrar Google Maps (ou similar). Exibir os pinos das APIs (ubs, obras, turismo). Criar tela local de coleta de lixo com cache das rotas.",
+          "etiquetas": ["Flutter", "Integração"],
+          "anexos": [
+            "mockup_mapa_1782496605735.png",
+            "mockup_coleta_lixo_1782496697778.png"
+          ]
+        },
+        {
+          "titulo": "UI: Emergência e Deep Links WhatsApp",
+          "descricao": "Flutter: Implementar FAB flutuante com modal bottom-sheet de telefones úteis. Integrar `url_launcher` para abrir chat do WhatsApp nos contatos da prefeitura.",
+          "etiquetas": ["Flutter", "UI/UX"],
+          "anexos": [
+            "mockup_emergencia_1782496577212.png"
+          ]
+        },
+        {
+          "titulo": "Funcionalidade: Modo Offline",
+          "descricao": "Flutter: Implementar sistema de cache global. Salvar respostas das APIs de leitura (notícias, avisos) para exibir quando o aparelho não tiver conexão (com banner de aviso).",
+          "etiquetas": ["Flutter", "Arquitetura"]
+        }
+      ]
+    },
+    {
+      "nome": "Sprint 4: QA e Lançamento",
+      "cartoes": [
+        {
+          "titulo": "Testes Automatizados (Frontend)",
+          "descricao": "Flutter: Escrever testes unitários (BLoCs) e testes de integração E2E principais (Criar Protocolo, Fluxo de Home).",
+          "etiquetas": ["QA", "Flutter"]
+        },
+        {
+          "titulo": "Testes Automatizados e Rate Limits (Backend)",
+          "descricao": "NestJS: Testar Throttler (limite de requests de API). Adicionar logs de segurança. Revisar regras de CORS.",
+          "etiquetas": ["QA", "NestJS"]
+        },
+        {
+          "titulo": "Assets e Stores (CI/CD)",
+          "descricao": "Flutter: Criar ícones oficiais, rodar `flutter_launcher_icons`. Configurar pipeline Codemagic/Actions para compilar APK/AAB e IPA.",
+          "etiquetas": ["DevOps", "Release"]
+        },
+        {
+          "titulo": "Deploy e Revisão de Lojas",
+          "descricao": "Apple/Google: Subir binários. Enviar política de privacidade revisada (indicando coleta anônima). Responder à revisão técnica das lojas.",
+          "etiquetas": ["Burocracia", "Release"]
+        }
+      ]
+    },
+    {
+      "nome": "Concluído",
+      "cartoes": [
+        {
+          "titulo": "Discovery e Visão do Produto",
+          "descricao": "Levantamento de requisitos, definição de arquitetura sem login e escopo de funcionalidades.",
+          "etiquetas": ["Design"]
+        },
+        {
+          "titulo": "Design System e Mockups (Fase 1)",
+          "descricao": "Geração das paletas de cores, tipografia e os primeiros 15 mockups de alta fidelidade baseados no visual web da prefeitura.",
+          "etiquetas": ["Design"]
+        },
+        {
+          "titulo": "Documentação Técnica (Vol 1 a 8)",
+          "descricao": "Criação de todos os volumes de engenharia, arquitetura e negócio para a equipe técnica.",
+          "etiquetas": ["Arquitetura"]
+        }
+      ]
+    }
+  ]
+}
